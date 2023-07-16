@@ -6,7 +6,7 @@ export default function FirstContent(){
 <div className={styles.content}>
     <h3><span className={styles.shadow}></span>
         Hello!I am Melika</h3>
-    <p>Innovative Front End Developer with a passion for crafting immersive user experiences. Combining meticulous attention to detail with advanced technical prowess, I design sleek and intuitive interfaces that captivate users and drive engagement. Proficient in HTML, CSS, JavaScript, and modern frameworks, I excel in developing responsive and cross-browser compatible websites. By pushing the boundaries of digital experiences and staying up-to-date with the latest industry trends, I bring a dynamic and visionary approach to front end development. Let's collaborate to bring your digital vision to life and create impactful online solutions</p>
+    <p>Skilled Front End Developer dedicated to creating user-friendly websites. With a keen eye for design and strong technical abilities, I develop interfaces that engage and impress. Proficient in HTML, CSS, JavaScript, and modern frameworks, I specialize in building websites that work seamlessly across different devices and browsers. By staying updated with the latest industry trends, I bring a fresh and innovative perspective to front end development. Let's work together to bring your digital ideas to reality and deliver exceptional online experiences.</p>
 </div>
 <div className={styles.icon}>
     <img src={Icon} alt="Icon"/>

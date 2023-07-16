@@ -10,7 +10,7 @@ export default function Projects(){
     }
   
     return(<div className={styles.wraper}>
-        <h2>Projects</h2>
+        <h4>hover over any project to learn more!</h4>
 <div className={styles.container}>
 <div className={styles.Dictionary}>
 <div className={styles.modal}><Modal title="Dictionary" massage="Proficiently developed a dictionary app using React, REST API integration, and Axios. The app enables users to search for word meanings and incorporates a voice feature for accurate pronunciation" onclick={DictionaryLink}/>
@@ -18,7 +18,7 @@ export default function Projects(){
 <img src={Dictionary} alt="DictionaryApp"/>
 </div>
 <div className={styles.Weather}>
- <div className={styles.modal}><Modal title="WeatherApp" massage="I built a weather app using React, REST API integration, and Axios. The app allows users to track weather conditions in any location and provides a 10-day forecast. It also includes a dark mode feature for improved visibility." />
+ <div className={styles.modal}><Modal title="WeatherApp" massage="I built a weather app using React, REST API and Axios. The app allows users to track weather conditions in any location and provides a 10-day forecast. It also includes a dark mode feature for improved visibility." />
  </div>
     <img src={Weather} alt="WeatherApp"/>
 </div>
