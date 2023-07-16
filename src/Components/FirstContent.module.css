@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.content{
+    width: 80%;
+    line-height: 2rem;
+    margin-left: 30px;
+}
+.content h3{
+    font-weight: bolder;
+    font-size: 32px;
+    color: rgb(2, 35, 35);
+    
+}
+.shadow{
+    position: absolute ;
+   box-shadow: 0px 0px 5px rgba(3, 240, 240, 0.4);
+   border: 9px solid rgba(57, 241, 235, 0.25);
+    width:250px;
+    margin-top: 16px;
+    
+}
+.icon img{
+    width: 40%;
+    display: block;
+  margin: auto;
+  border-radius: 40px;
+
+}

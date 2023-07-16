@@ -1,8 +1,10 @@
+import React,{Fragment} from "react";
+import FirstContent from "./Components/FirstContent";
 function App() {
   return (
-    <div className="App">
-  
-    </div>
+    <Fragment>
+<FirstContent/>
+    </Fragment>
   );
 }
 
