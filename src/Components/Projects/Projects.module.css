@@ -1,0 +1,35 @@
+.wraper{
+    margin: 20px;
+}
+.wraper h2{
+    text-align: center;
+    color: rgb(2, 58, 57);
+    text-shadow: 3px 3px 3px rgba(3, 53, 52, 0.25)
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.Weather{
+    width: 30%;  
+}
+.Weather img{
+    width: 52%;
+}
+
+.Dictionary{
+    width: 60%; 
+}
+.Dictionary img{
+    width: 80%;
+    border-radius: 40px;
+}
+.ToDo{
+    width: 60%; 
+}
+.ToDo img{
+    width: 80%;
+    border-radius: 40px;
+}
