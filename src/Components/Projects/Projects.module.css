@@ -1,5 +1,8 @@
+.modal{
+    display: none;
+}
 .wraper{
-    margin: 20px;
+margin-top: 150px;
 }
 .wraper h2{
     text-align: center;
@@ -13,23 +16,47 @@
     margin: 60px;
 }
 .Weather{
-    width: 30%;  
+    width: 40%;  
+}
+.Weather:hover{
+    position: relative;
+    
+}
+.Weather:hover .modal{
+    display: block;
 }
 .Weather img{
-    width: 52%;
+    width: 40%;
+    display: block;
+    margin: auto;
 }
 
+
 .Dictionary{
-    width: 60%; 
+    width: 50%; 
+}
+.Dictionary:hover{
+    position: relative;
+}
+.Dictionary:hover .modal{
+  display: block;
+
 }
 .Dictionary img{
-    width: 80%;
+    width: 100%;
     border-radius: 40px;
 }
 .ToDo{
-    width: 60%; 
+    width: 50%; 
 }
 .ToDo img{
-    width: 80%;
+    width: 100%;
     border-radius: 40px;
+}
+.ToDo:hover{
+    position: relative;
+}
+.ToDo:hover .modal{
+    display: block;
+   
 }
