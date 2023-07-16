@@ -1,6 +1,6 @@
 .overley{
-    background-color: rgba(0, 0, 0,0.6);
-    position: absolute;
+ background-color: rgba(0, 0, 0,0.9);
+ position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -10,7 +10,8 @@
 }
 
 .content{
-    position: relative;
-    color: aqua;
+    padding: 13px;
+line-height: 2.5rem;
     text-align: center;
+    color: white;
 }
