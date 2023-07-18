@@ -10,6 +10,12 @@ export default function Projects(){
         window.open("https://musical-sorbet-7120c3.netlify.app/","_blank","noreferrer")
     }
   
+    function WeatherApp(){
+        window.open("https://fanciful-bublanina-8bd2c6.netlify.app/")
+    }
+    function ToDoapp(){
+        window.open("https://guileless-cranachan-184a79.netlify.app/")
+    }
     return(<div className={styles.wraper}>
         <h4>hover over any project to learn more!</h4>
 <div className={styles.container}>
@@ -19,7 +25,7 @@ export default function Projects(){
 <img src={Dictionary} alt="DictionaryApp"/>
 </div>
 <div className={styles.Weather}>
- <div className={styles.modal}><Modal title="WeatherApp" massage="I built a weather app using React, REST API and Axios. The app allows users to track weather conditions in any location and provides a 10-day forecast. It also includes a dark mode feature for improved visibility." />
+ <div className={styles.modal}><Modal title="WeatherApp" massage="I built a weather app using React, REST API and Axios. The app allows users to track weather conditions in any location and provides a 10-day forecast. It also includes a dark mode feature for improved visibility." onclick={WeatherApp} />
  </div>
     <img src={Weather} alt="WeatherApp"/>
 </div>
