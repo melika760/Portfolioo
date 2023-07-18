@@ -31,7 +31,7 @@ export default function Projects(){
 </div>
 </div>
 <div className={styles.container}>
-<div className={styles.ToDo}> <div className={styles.modal}><Modal title="ToDoApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed. Its intuitive user interface ensures a seamless and organized task management experience." />
+<div className={styles.ToDo}> <div className={styles.modal}><Modal title="ToDoApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed. Its intuitive user interface ensures a seamless and organized task management experience." onclick={ToDoapp} />
 </div>
 <img src={Todo} alt="ToDoApp"/>
 </div>
