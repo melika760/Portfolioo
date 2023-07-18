@@ -3,11 +3,13 @@ import  "./Nav.css"
 export default function Nav(){
     const[navOpen,setnavOpen]=useState(false)
     function toggle(){
-        setnavOpen(!navOpen)
+        setnavOpen((prevnavOpen)=>!prevnavOpen)
     }
 
     return(
-        <div className="wraper">
+        <div className="wraper" style={{
+            height:navOpen? "100vh":"0px"
+        }}>
             <div className="menue" onClick={toggle}>
                 <div className={navOpen? "boxopen box":"box"}>
                  <spin className={navOpen? "linetopspin linetop" : "linetop"}></spin>

@@ -5,6 +5,7 @@ import Weather from "../../img/Weather.jpg";
 import Todo from "../../img/Todo.jpg";
 import Dictionary from "../../img/Dictionary.jpg";
 export default function Projects(){
+
     function DictionaryLink(){
         window.open("https://musical-sorbet-7120c3.netlify.app/","_blank","noreferrer")
     }
