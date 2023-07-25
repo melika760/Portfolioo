@@ -62,3 +62,19 @@ margin: 150px;
     display: block;
    
 }
+@media (max-width:900px){
+    .wraper{
+        margin: 0 auto;
+    }
+    .container{
+        display: block;
+        margin: 0 auto;
+    
+    }
+    .ToDo , .Dictionary, .Weather,.Food{
+        width: 100%;
+    }
+  .ToDo img{
+    width: 100%;
+  }
+}

@@ -36,5 +36,17 @@
 @media (max-width:900px){
     .container{
         display: block;
+        margin: 25px auto;
+    }
+    .content{
+        width: 100%;
+        margin-left: 5px;
+    
+    }
+    .shadow{
+       display: none;
+    }
+    .icon img{
+        width: 100%;
     }
 }
