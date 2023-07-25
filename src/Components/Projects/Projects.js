@@ -11,10 +11,10 @@ export default function Projects(){
     }
   
     function WeatherApp(){
-        window.open("https://fanciful-bublanina-8bd2c6.netlify.app/")
+        window.open("https://fanciful-bublanina-8bd2c6.netlify.app/","_blank","noreferrer")
     }
     function ToDoapp(){
-        window.open("https://guileless-cranachan-184a79.netlify.app/")
+        window.open("https://guileless-cranachan-184a79.netlify.app/","_blank","noreferrer")
     }
     return(<div className={styles.wraper}>
         <h4>hover over any project to learn more!</h4>

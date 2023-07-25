@@ -12,9 +12,9 @@ export default function Nav(){
         }}>
             <div className="menue" onClick={toggle}>
                 <div className={navOpen? "boxopen box":"box"}>
-                 <spin className={navOpen? "linetopspin linetop" : "linetop"}></spin>
-                 <spin className={navOpen? "linecenterspin linecenter" : "linecenter"}></spin>
-                 <spin className={navOpen? "linebottomspin linebottom" : "linebottom"}></spin>
+                 <span className={navOpen? "linetopspin linetop" : "linetop"}></span>
+                 <span className={navOpen? "linecenterspin linecenter" : "linecenter"}></span>
+                 <span className={navOpen? "linebottomspin linebottom" : "linebottom"}></span>
                 </div>
             </div>
 <div className="navoverley"
