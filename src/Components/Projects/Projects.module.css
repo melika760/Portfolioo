@@ -64,17 +64,20 @@ margin: 150px;
 }
 @media (max-width:900px){
     .wraper{
-        margin: 0 auto;
+        margin: 50px auto;
     }
     .container{
         display: block;
-        margin: 0 auto;
+        margin: 40px auto;
     
     }
     .ToDo , .Dictionary, .Weather,.Food{
         width: 100%;
+        padding: 15px;
+        margin-bottom: 3.5rem;
+       
     }
-  .ToDo img{
+ img{
     width: 100%;
   }
 }
