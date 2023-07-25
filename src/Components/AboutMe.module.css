@@ -1,12 +1,25 @@
+a{background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(2, 58, 57);
+    text-decoration: none;
+    color: rgb(2, 58, 57);
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(2, 58, 57);
+}
 .wraper{
     display: flex;
     justify-content: space-between;
-    margin: 90px;
+    margin: 150px;
 }
 .content{
     width: 90%;
     line-height: 2rem;
-    margin-left: 65px;
+    margin-left: 60px;
    
 }
 .content h3{
@@ -26,7 +39,7 @@
     
 }
 .image img{
-    width:50%;
+    width:45%;
     border-radius: 40px;
     display: block;
     margin: auto;
