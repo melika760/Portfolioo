@@ -10,7 +10,7 @@ export default function AboutMe(){
 grow in a collaborative team environment. Graduated in Electrical Engineering, I have a proven track record of 
 creating user-friendly, responsive, and visually appealing websites. Proficient in HTML, CSS, JavaScript, React, and 
 other modern web technologies.</p>
-<a href={pdf} target="_blanket" rel="noreferrer">Check CV</a>
+<a className={styles.pdf} href={pdf} target="_blanket" rel="noreferrer">Check CV</a>
 </div>
 <div className={styles.image}>
 <img src={Mypicture} alt="Me"/>
