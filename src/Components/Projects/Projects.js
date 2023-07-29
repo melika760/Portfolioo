@@ -17,6 +17,9 @@ export default function Projects(){
     function ToDoapp(){
         window.open("https://guileless-cranachan-184a79.netlify.app/","_blank","noreferrer")
     }
+    function Foodapp(){
+        window.open("https://quiet-tulumba-45d1bc.netlify.app/","_blank","noreferrer")
+    }
     return(<div className={styles.wraper}>
         <h4>hover over any project to learn more!</h4>
 <div className={styles.container}>
@@ -25,7 +28,7 @@ export default function Projects(){
 </div>
 <img src={Dictionary} alt="DictionaryApp"/>
 </div>
-<div className={styles.FoodApp}> <div className={styles.modal}><Modal title="FoodApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed." />
+<div className={styles.FoodApp}> <div className={styles.modal}><Modal title="FoodApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed."onclick={Foodapp}  />
 </div>
 <img src={FoodApp} alt="FoodApp"/>
 </div>
