@@ -17,6 +17,9 @@ a:hover{
     margin: 150px;
   
 }
+.tool{
+    margin: 150px;   
+}
 .content{
     width: 90%;
     line-height: 2rem;
@@ -46,6 +49,19 @@ a:hover{
     display: block;
     margin: auto;
    
+}
+.toolwraper{
+    margin: 40px;
+    display: flex;
+    justify-content: left;
+}
+.symbol img{
+    width: 60px;
+   
+}
+.symbol {
+    text-align: center;
+    padding: 50px;
 }
 @media (max-width:900px){
     .wraper{
