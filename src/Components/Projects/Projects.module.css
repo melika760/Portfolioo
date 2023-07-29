@@ -87,13 +87,15 @@ margin: 150px;
         margin: 40px auto;
     
     }
-    .ToDo , .Dictionary, .Weather,.FoodApp{
+    .ToDo , .Dictionary, .Weather,.FoodApp
+    {
         width: 100%;
         padding: 15px;
         margin-bottom: 3.5rem;
        
     }
+
  img{
-    width: 100%;
+    width: 100%
   }
 }
