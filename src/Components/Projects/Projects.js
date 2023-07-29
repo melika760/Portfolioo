@@ -4,6 +4,7 @@ import styles from "./Projects.module.css";
 import Weather from "../../img/Weather.jpg";
 import Todo from "../../img/Todo.jpg";
 import Dictionary from "../../img/Dictionary.jpg";
+import FoodApp from "../../img/FoodAppjpg.jpg"
 export default function Projects(){
 
     function DictionaryLink(){
@@ -24,18 +25,22 @@ export default function Projects(){
 </div>
 <img src={Dictionary} alt="DictionaryApp"/>
 </div>
+<div className={styles.FoodApp}> <div className={styles.modal}><Modal title="FoodApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed." />
+</div>
+<img src={FoodApp} alt="FoodApp"/>
+</div>
+
+</div>
+<div className={styles.container}>
+<div className={styles.ToDo}> <div className={styles.modal}><Modal title="ToDoApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed." onclick={ToDoapp} />
+</div>
+<img src={Todo} alt="ToDOApp"/>
+</div>
 <div className={styles.Weather}>
  <div className={styles.modal}><Modal title="WeatherApp" massage="I built a weather app using React, REST API and Axios. The app allows users to track weather conditions in any location and provides a 10-day forecast. It also includes a dark mode feature for improved visibility." onclick={WeatherApp} />
  </div>
     <img src={Weather} alt="WeatherApp"/>
 </div>
-</div>
-<div className={styles.container}>
-<div className={styles.ToDo}> <div className={styles.modal}><Modal title="ToDoApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed." onclick={ToDoapp} />
-</div>
-<img src={Todo} alt="ToDoApp"/>
-</div>
-foodorderapp
 </div>
         </div>
     )

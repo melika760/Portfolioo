@@ -62,6 +62,22 @@ margin: 150px;
     display: block;
    
 }
+.FoodApp{
+    width: 40%;  
+}
+.FoodApp img{
+    width: 410px;
+    margin: auto;
+    display: block;
+    border-radius: 40px;
+}
+.FoodApp:hover{
+    position: relative;
+}
+.FoodApp:hover .modal{
+    display: block;
+   
+}
 @media (max-width:900px){
     .wraper{
         margin: 50px auto;
@@ -71,7 +87,7 @@ margin: 150px;
         margin: 40px auto;
     
     }
-    .ToDo , .Dictionary, .Weather,.Food{
+    .ToDo , .Dictionary, .Weather,.FoodApp{
         width: 100%;
         padding: 15px;
         margin-bottom: 3.5rem;
