@@ -28,6 +28,11 @@ export default function ContactMe(props){
         if(!formIsValid){
             return;
         }
+        props.onConfirm({
+          name:enteredName,
+         Email:enteredEmail,
+           Messages:enteredMassage
+        })
     }
 
     return(<div className={styles.wrap}>

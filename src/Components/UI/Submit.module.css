@@ -1,0 +1,12 @@
+.wrap{
+    background-color:rgba(3, 131, 131, 0.1);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.wrap h3{
+   padding-top: 50px;
+}
+.wrap p{
+    text-shadow: 2px 2px 2px rgba(3, 53, 52, 0.2)
+}
