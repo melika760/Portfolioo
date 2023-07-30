@@ -35,7 +35,7 @@ export default function ContactMe(props){
         })
     }
 
-    return(<div className={styles.wrap}>
+    return(<div className={styles.wrap} id="Contact">
         <div className={styles.content}>
         <h3><span className={styles.shadow}></span>Let's Connect💌</h3>
         <p>If you ever want to grab a coffee or just want a quick chat - you can find me on social media or you can send me a message here!</p>

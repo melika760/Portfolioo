@@ -10,7 +10,7 @@ import Github from "../img/github.svg";
 import Firebase from "../img/firebase.svg"
 export default function AboutMe(){
     return(<Fragment>
-        <div className={styles.wraper}>
+        <div className={styles.wraper} id="AboutMe">
 <div className={styles.content}>
     <h3><span className={styles.shadow}></span>AboutMe</h3>
     <p>Highly skilled and goal-oriented Front-End Developer with a strong problem-solving ability and a desire to learn and 

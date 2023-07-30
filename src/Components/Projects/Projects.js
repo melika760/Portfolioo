@@ -20,7 +20,7 @@ export default function Projects(){
     function Foodapp(){
         window.open("https://quiet-tulumba-45d1bc.netlify.app/","_blank","noreferrer")
     }
-    return(<div className={styles.wraper}>
+    return(<div className={styles.wraper} id="Projects">
         <h4>hover over any project to learn more!</h4>
 <div className={styles.container}>
 <div className={styles.Dictionary}>
