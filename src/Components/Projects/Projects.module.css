@@ -81,6 +81,7 @@ margin: 150px;
 @media (max-width:900px){
     .wraper{
         margin: 50px auto;
+        margin-bottom: 9rem;
     }
     .container{
         display: block;

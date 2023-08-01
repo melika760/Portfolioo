@@ -68,17 +68,21 @@ a:hover{
     .wraper{
         display: block;
         margin: 0px;
+        padding: 0px;
+        margin-bottom: 7rem;
     }
     .content{
+        text-align: center;
         width: 100%; 
         margin-bottom: 2rem;
         margin-left: 0;
     }
     .image img{
-        width:80%;
+        width:60%;
         border-radius: 40px;
         display: block;
         margin: auto;
+        margin-bottom: 5rem;
        
     }
     .tool{
@@ -86,7 +90,18 @@ a:hover{
         text-align: center;
     }
     .toolwraper{
-        display: block;
-
+     margin-left: 20px;
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 7rem;
+    }
+    .symbol{
+        padding: 9px;
+    }
+    .symbol p{
+        font-size: 11px;
+    }
+    .symbol img{
+        width: 30px;
     }
 }

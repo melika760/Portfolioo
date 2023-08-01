@@ -41,13 +41,15 @@
     }
     .content{
         width: 100%;
-        margin-left: 5px;
+        margin-left: 0;
+        text-align: center;
+
     
     }
     .shadow{
        display: none;
     }
     .icon img{
-        width: 70%;
+        width: 60%;
     }
 }
