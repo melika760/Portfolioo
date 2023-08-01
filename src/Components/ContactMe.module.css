@@ -26,7 +26,8 @@
 .socialIcon li{
     display: inline;
     padding: 20px;
-    width: 50%;
+    width: 100%;
+
 }
 .form{
     margin: 100px;

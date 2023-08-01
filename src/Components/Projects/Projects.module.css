@@ -90,12 +90,12 @@ margin: 150px;
     .ToDo , .Dictionary, .Weather,.FoodApp
     {
         width: 100%;
-        padding: 15px;
+      
         margin-bottom: 3.5rem;
        
     }
 
- img{
+    .ToDo , .Dictionary, .Weather,.FoodApp img{
     width: 100%
   }
 }

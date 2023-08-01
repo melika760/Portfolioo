@@ -1,6 +1,7 @@
 import React,{useRef,useState} from "react";
 import styles from "./ContactMe.module.css";
 import Button from "./UI/Button";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function ContactMe(props){
     const [formValid,setformvalid]=useState({
        name:true,
@@ -41,7 +42,7 @@ export default function ContactMe(props){
         <p>If you ever want to grab a coffee or just want a quick chat - you can find me on social media or you can send me a message here!</p>
         <ul className={styles.socialIcon}>
             <li>Git</li>
-            <li><a href="https://www.linkedin.com/in/sharon-yi/"><i class="fa-brands fa-linkedin-in"></i>l</a></li>
+            <li><a href="https://www.linkedin.com/in/sharon-yi/"><FontAwesomeIcon icon="fa-brands fa-linkedin-in" flip size="lg" />jhg</a></li>
             <li>Whatsapp</li>
         </ul>
         </div>
