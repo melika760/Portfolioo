@@ -20,7 +20,7 @@ export default function Projects(){
         window.open("https://guileless-cranachan-184a79.netlify.app/","_blank","noreferrer")
     }
     function Foodapp(){
-        window.open("https://quiet-tulumba-45d1bc.netlify.app/","_blank","noreferrer")
+        window.open("https://foodorderappmel.netlify.app/","_blank","noreferrer")
     }
     return(<div className={styles.wraper} id="Projects">
         <div className={styles.heart}>  <FontAwesomeIcon icon={ faHeart } bounce  size="lg" style={{color: "#1b6463",}}/></div>
