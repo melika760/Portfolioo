@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import  "./Nav.css";
+import  styles from "./Nav.module.css"
 import { HashLink as Link } from "react-router-hash-link";
 export default function Nav(){
     const[navOpen,setnavOpen]=useState(false)
@@ -11,22 +11,22 @@ export default function Nav(){
  }
 
     return(
-        <div className="wraper" style={{
+        <div className={styles.wraper} style={{
             height:navOpen? "100vh":"0px"
         }}>
-            <div className="menue" onClick={toggle}>
-                <div className={navOpen? "boxopen box":"box"}>
-                 <span className={navOpen? "linetopspin linetop" : "linetop"}></span>
-                 <span className={navOpen? "linecenterspin linecenter" : "linecenter"}></span>
-                 <span className={navOpen? "linebottomspin linebottom" : "linebottom"}></span>
+            <div className={styles.meneu} onClick={toggle}>
+                <div className={`${styles.box} ${navOpen? styles.boxopen:styles.box}`}>
+                 <span className={`${styles.linetop} ${navOpen? styles.linetopspin:styles.linetop}`}></span>
+                 <span className={`${styles.linecenter} ${navOpen? styles.linecenterspin :styles.linecenter}`}></span>
+                 <span className={`${styles.linebottom} ${navOpen? styles.linebottomspin:styles.linebottom}`}></span>
                 </div>
             </div>
-<div className="navoverley"
+<div className={styles.navoverley}
 style={{
     top:navOpen?"0":"-100%",
     transitionDelay: navOpen? "0s":"0s"
 }}>
-<ul className="navlinks">
+<ul className={styles.navlinks}>
                         <li><Link to="#AboutMe" onClick={closeNav}>AboutMe</Link></li>
                         <li><Link to="#Projects" onClick={closeNav}>Projects</Link></li>
                         <li><Link to="#Contact" onClick={closeNav}>ContactMe</Link></li>
