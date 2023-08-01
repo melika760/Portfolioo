@@ -48,7 +48,7 @@
     
     }
     .shadow{
-       width:250px;
+       display: none;
     }
     .icon img{
         width: 60%;

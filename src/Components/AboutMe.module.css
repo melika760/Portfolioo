@@ -89,14 +89,14 @@ a:hover{
         text-align: center;
     }
     .toolwraper{
-     margin-left: 20px;
+     margin-left: 50px;
      display: flex;
      flex-direction: row;
      margin-bottom: 7rem;
      justify-content: space-around;
+
     }
     .symbol{
-
         padding: 12px;
     }
     .symbol p{
