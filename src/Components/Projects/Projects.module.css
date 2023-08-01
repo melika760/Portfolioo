@@ -80,7 +80,7 @@ margin: 150px;
     display: block;
    
 }
-@media (max-width:900px){
+@media (max-width:1024px){
     .wraper{
         margin: 50px auto;
        

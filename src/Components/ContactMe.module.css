@@ -73,7 +73,7 @@
   .invalidmsg label{
     color: #ca3e51;
   }
-  @media (max-width:900px){
+  @media (max-width:1024px){
     .wrap{
         display: block;
         max-width: 100%;

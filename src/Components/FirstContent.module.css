@@ -34,7 +34,7 @@
   border-radius: 40px;
 
 }
-@media (max-width:900px){
+@media (max-width:1024px){
     .container{
         display: block;
         margin: 25px auto;
