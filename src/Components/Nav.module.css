@@ -102,10 +102,9 @@ float: right;
         top: auto;
     }
     .navoverley{
-       
         top: -100%;
-        width: 0%;
-        height: 100vh;
+        width: 0;
+        height: 0;
         overflow: hidden;
         overflow-y: hidden;
         overflow-x: hidden;
