@@ -38,7 +38,7 @@
     .container{
         display: block;
         margin: 25px auto;
-        padding: 30px;
+        padding: 50px;
     }
     .content{
         width: 100%;
@@ -47,9 +47,7 @@
 
     
     }
-    .shadow{
-       display: none;
-    }
+
     .icon img{
         width: 60%;
     }
