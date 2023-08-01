@@ -21,11 +21,7 @@ export default function Nav(){
                  <span className={`${styles.linebottom} ${navOpen? styles.linebottomspin:styles.linebottom}`}></span>
                 </div>
             </div>
-<div className={styles.navoverley}
-style={{
-    top:navOpen?"0":"-100%",
-    transitionDelay: navOpen? "0s":"0s"
-}}>
+<div className={`${styles.navoverley} ${navOpen? styles.overleyopen:styles.navoverley}`}>
 <ul className={styles.navlinks}>
                         <li><Link to="#AboutMe" onClick={closeNav}>AboutMe</Link></li>
                         <li><Link to="#Projects" onClick={closeNav}>Projects</Link></li>
