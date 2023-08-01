@@ -2,7 +2,6 @@
 position: fixed;
 width: 100%;
 top: 0;
-
 }
 .navoverley{
     position: fixed;
@@ -16,7 +15,6 @@ top: 0;
    
 }
 .box{
-
 position: relative;
 width: 10px;
 height: 10px;
@@ -35,7 +33,7 @@ float: right;
     margin: 0 auto;
     width: 24px;
     height: 3px;
-    background-color: rgba(3, 240, 240, 0.4);
+    background-color: rgba(3, 240, 240, 0.9);
     right: 0;
     left: 0;
     transition: all 0.4s;
@@ -64,8 +62,8 @@ float: right;
 }
 .navlinks{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     translate: (-50%,-50%);
     margin: 0;
     padding: 0px;
@@ -84,4 +82,10 @@ float: right;
     font-size: 30px;
     font-weight: bolder;
     cursor: pointer;
+}
+@media (max-width:760px){
+    .navlinks{
+        top: 30%;
+        left: 30%;
+    }
 }

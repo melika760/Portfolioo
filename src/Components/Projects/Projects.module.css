@@ -2,11 +2,15 @@
     display: none;
 }
 .wraper{
-margin-top: 150px;
+
 margin: 150px;
 
 }
+.heart{
+    text-align: center;
+}
 .wraper h4{
+    padding-top: 65px;
     color: rgb(2, 58, 57);
     text-shadow: 3px 3px 3px rgba(3, 53, 52, 0.25);
     margin-left: 60px;
