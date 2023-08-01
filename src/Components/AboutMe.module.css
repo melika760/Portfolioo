@@ -93,8 +93,10 @@ a:hover{
      display: flex;
      flex-direction: row;
      margin-bottom: 7rem;
+     justify-content: space-around;
     }
     .symbol{
+
         padding: 12px;
     }
     .symbol p{
