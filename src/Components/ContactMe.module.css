@@ -78,7 +78,6 @@
         display: block;
         max-width: 100%;
         text-align: center;
-        
        
     }
     .content{
@@ -90,5 +89,9 @@
         margin: 0 auto;
         width: 80%;
         text-align: center;
+       
+    }
+    .form button{
+        margin-bottom: 3rem;
     }
   }
