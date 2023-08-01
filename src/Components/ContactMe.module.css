@@ -30,6 +30,9 @@
     width: 100%;
 
 }
+.socialIcon a{
+    text-decoration: none;
+}
 .form{
     margin: 100px;
     width: 100%;

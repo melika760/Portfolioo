@@ -1,8 +1,12 @@
 import React,{useRef,useState} from "react";
-import ReactDOM from 'react-dom';
 import styles from "./ContactMe.module.css";
 import Button from "./UI/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
+
 
 export default function ContactMe(props){
     const [formValid,setformvalid]=useState({
@@ -43,9 +47,9 @@ export default function ContactMe(props){
         <h3><span className={styles.shadow}></span>Let's Connect💌</h3>
         <p>If you ever want to grab a coffee or just want a quick chat - you can find me on social media or you can send me a message here!</p>
         <ul className={styles.socialIcon}>
-            <li>Git</li>
-            <li><a href="https://www.linkedin.com/in/sharon-yi/">  <FontAwesomeIcon icon="fas fa-linkedin-in" />jhg</a></li>
-            <li>Whatsapp</li>
+            <li><a href="www.linkedin.com/in/melika-tafazoli">  <FontAwesomeIcon icon={faLinkedinIn} bounce style={{color: "#1b6463",}} size="2x" /></a></li>
+            <li><a href="https://github.com/melika760">  <FontAwesomeIcon icon={faGithub} spinPulse style={{color: "#1b6463",}} size="2x" /></a></li>
+            <li><a href="https://github.com/melika760">  <FontAwesomeIcon icon={faInstagram} bounce style={{color: "#1b6463",}} size="2x" /></a></li>
         </ul>
         </div>
         <form className={styles.form} onSubmit={submithandler}>
