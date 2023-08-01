@@ -10,6 +10,7 @@ export default function Nav(){
     setnavOpen(false)
  }
 
+
     return(
         <div className={styles.wraper} style={{
             height:navOpen? "100vh":"0px"

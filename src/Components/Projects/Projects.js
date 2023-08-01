@@ -23,7 +23,7 @@ export default function Projects(){
         window.open("https://foodorderappmel.netlify.app/","_blank","noreferrer")
     }
     return(<div className={styles.wraper} id="Projects">
-        <div className={styles.heart}>  <FontAwesomeIcon icon={ faHeart } bounce  size="lg" style={{color: "#1b6463",}}/></div>
+        <div className={styles.heart}>  <FontAwesomeIcon icon={ faHeart } bounce  size="lg" style={{color: "#03f0f0",}}/></div>
       
         <h4>hover over any project to learn more!</h4>
 <div className={styles.container}>
