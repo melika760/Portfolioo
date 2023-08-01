@@ -36,7 +36,6 @@ export default function Projects(){
 </div>
 <img src={FoodApp} alt="FoodApp"/>
 </div>
-
 </div>
 <div className={styles.container}>
 <div className={styles.ToDo}> <div className={styles.modal}><Modal title="ToDoApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed." onclick={ToDoapp} />
