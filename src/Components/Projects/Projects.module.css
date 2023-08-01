@@ -70,7 +70,7 @@ margin: 150px;
     width: 40%;  
 }
 .FoodApp img{
-    width: 90%;
+    width: 100%;
     border-radius: 40px;
 }
 .FoodApp:hover{
