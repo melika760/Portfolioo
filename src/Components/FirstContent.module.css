@@ -47,7 +47,9 @@
 
     
     }
-
+    .shadow{
+       width:250px;
+    }
     .icon img{
         width: 60%;
     }
