@@ -45,7 +45,7 @@ export default function ContactMe(props){
     return(<div className={styles.wrap} id="Contact">
         <div className={styles.content}>
         <h3><span className={styles.shadow}></span>Let's Connect💌</h3>
-        <p>If you ever want to grab a coffee or just want a quick chat - you can find me on social media or you can send me a message here!</p>
+        <p>If you ever want to grab a coffee or just want a quick chat,you can find me on social media or you can send me a message here!</p>
         <ul className={styles.socialIcon}>
             <li><a href="www.linkedin.com/in/melika-tafazoli">  <FontAwesomeIcon icon={faLinkedinIn} bounce style={{color: "#1b6463",}} size="2x" /></a></li>
             <li><a href="https://github.com/melika760">  <FontAwesomeIcon icon={faGithub} spinPulse style={{color: "#1b6463",}} size="2x" /></a></li>
