@@ -49,7 +49,7 @@ export default function ContactMe(props){
         <ul className={styles.socialIcon}>
             <li><a href="https://linkedin.com/in/melika-tafazoli">  <FontAwesomeIcon icon={faLinkedinIn} bounce style={{color: "#03f0f0",}} size="2x" /></a></li>
             <li><a href="https://github.com/melika760">  <FontAwesomeIcon icon={faGithub} spinPulse style={{color: "#03f0f0",}} size="2x" /></a></li>
-            <li><a href="https://instagram.com/call._me_.mell">  <FontAwesomeIcon icon={faInstagram} bounce style={{color: "#03f0f0",}} size="2x" /></a></li>
+            <li><a href="https://instagram.com/call_.me._mell">  <FontAwesomeIcon icon={faInstagram} bounce style={{color: "#03f0f0",}} size="2x" /></a></li>
         </ul>
         </div>
         <form className={styles.form} onSubmit={submithandler}>
