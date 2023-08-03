@@ -43,7 +43,7 @@ export default function Projects(){
 <img src={Todo} alt="ToDOApp"/>
 </div>
 <div className={styles.Weather}>
- <div className={styles.modal}><Modal title="WeatherApp" massage="I built a weather app using React, REST API and Axios. The app allows users to track weather conditions in any location and provides a 10-day forecast. It also includes a dark mode feature for improved visibility." onclick={WeatherApp} />
+ <div className={styles.modal}><Modal title="WeatherApp" massage="I built a weather app using React, REST API and Axios. The app allows users to track weather conditions in any location and provides a 5-day forecast. It also includes a dark mode feature for improved visibility." onclick={WeatherApp} />
  </div>
     <img src={Weather} alt="WeatherApp"/>
 </div>
