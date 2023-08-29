@@ -12,7 +12,7 @@ export default function AboutMe(){
     return(<Fragment>
         <div className={styles.wraper} id="AboutMe">
 <div className={styles.content}>
-    <h3><span className={styles.shadow}></span>AboutMe</h3>
+    <h3><span className={styles.shadow}></span>About Me</h3>
     <p>Highly skilled and goal-oriented Front-End Developer with a strong problem-solving ability and a desire to learn and 
 grow in a collaborative team environment. Graduated in Electrical Engineering, I have a proven track record of 
 creating user-friendly, responsive, and visually appealing websites. Proficient in HTML, CSS, JavaScript, React, and 
