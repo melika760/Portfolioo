@@ -17,7 +17,7 @@ export default function Projects(){
         window.open("https://fanciful-bublanina-8bd2c6.netlify.app/","_blank","noreferrer")
     }
     function ToDoapp(){
-        window.open("https://guileless-cranachan-184a79.netlify.app/","_blank","noreferrer")
+        window.open("https://dominique-5aac4.web.app/","_blank","noreferrer")
     }
     function Foodapp(){
         window.open("https://foodorderappmel.netlify.app/","_blank","noreferrer")
@@ -27,9 +27,9 @@ export default function Projects(){
       
         <h4>hover over any project to learn more!</h4>
 <div className={styles.container}>
-<div className={styles.ToDo}> <div className={styles.modal}><Modal title="ToDoApp" massage="Expertly created a to-do list app using React, employing clean and efficient code. The app allows users to easily manage their tasks, add new items, mark them as completed, and remove them as needed." onclick={ToDoapp} />
+<div className={styles.ToDo}> <div className={styles.modal}><Modal title="Dominiques' Cafe" massage="Expertly created a to-do l" onclick={ToDoapp} />
 </div>
-<img src={Todo} alt="ToDOApp"/>
+<img src={Todo} alt="Dominiques' Cafe"/>
 </div>
 <div className={styles.FoodApp}> <div className={styles.modal}><Modal title="FoodApp" massage=" Implemented real-time menu updates and user-friendly customization. Enhanced the overall user experience for smooth and efficient ordering"onclick={Foodapp}  />
 </div>
