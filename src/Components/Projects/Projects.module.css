@@ -58,6 +58,7 @@ margin: 150px;
 .ToDo img{
     width: 100%;
     border-radius: 40px;
+    
 }
 .ToDo:hover{
     position: relative;
