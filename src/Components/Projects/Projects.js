@@ -27,7 +27,7 @@ export default function Projects(){
       
         <h4>hover over any project to learn more!</h4>
 <div className={styles.container}>
-<div className={styles.ToDo}> <div className={styles.modal}><Modal title="Dominiques' Cafe" massage="Expertly created a to-do l" onclick={ToDoapp} />
+<div className={styles.ToDo}> <div className={styles.modal}><Modal title="Dominiques' Cafe" massage="I developed a React-based website incorporating Firebase for data management. Utilizing useContext, I efficiently stored and accessed data across components, including a shopping cart feature. To enhance performance, I implemented React Router and utilized React Lazy loading" onclick={ToDoapp} />
 </div>
 <img src={Todo} alt="Dominiques' Cafe"/>
 </div>
