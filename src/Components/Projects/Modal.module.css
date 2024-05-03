@@ -8,7 +8,10 @@
 border-radius: 40px;
     
 }
-
+.overley a , a:hover{
+    text-decoration: none;
+    color: black;
+}
 .content{
     padding: 13px;
 line-height: 2.5rem;
