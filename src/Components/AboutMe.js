@@ -1,7 +1,7 @@
 import React,{Fragment} from "react";
 import styles from "./AboutMe.module.css";
 import Mypicture from "../img/linkdin profile-finaly.jpg";
-import pdf from "../CV Melika Tafazoli.pdf";
+import pdf from "../Melika Tafazoli.pdf";
 import html from "../img/html.svg";
 import CSS from "../img/css.svg";
 import JS from "../img/javascript.svg";

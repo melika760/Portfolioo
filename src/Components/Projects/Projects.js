@@ -1,8 +1,8 @@
 
 import Modal from "./Modal";
 import styles from "./Projects.module.css";
-import Weather from "../../img/Weather.jpg";
-import Todo from "../../img/Untitled design (3).png";
+import Weather from "../../img/weatherphone2.png";
+import Todo from "../../img/foodapp.png";
 import Dictionary from "../../img/Dictionary.jpg";
 import FoodApp from "../../img/FoodAppjpg.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
