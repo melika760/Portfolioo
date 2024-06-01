@@ -1,10 +1,10 @@
 
 import Modal from "./Modal";
 import styles from "./Projects.module.css";
-import Weather from "../../img/weatherphone2.png";
+import Weather from "../../img/weatherphone3.png";
 import Todo from "../../img/foodapp.png";
 import Dictionary from "../../img/Dictionary.jpg";
-import FoodApp from "../../img/FoodAppjpg.jpg";
+import FoodApp from "../../img/Grocery3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
@@ -19,9 +19,10 @@ export default function Projects(){
 </div>
 <img src={Todo} alt="Dominiques' Cafe"/>
 </div>
-<div className={styles.FoodApp}> <div className={styles.modal}><Modal title="FoodApp" massage=" Implemented real-time menu updates and user-friendly customization. Enhanced the overall user experience for smooth and efficient ordering" link="https://foodorderappmel.netlify.app/"  />
+<div className={styles.FoodApp}> <div className={styles.modal}><Modal title="Grocery App" massage="
+I developed a comprehensive grocery app using Next.js, Strapi, Shadcn UI, and Tailwind CSS. The app includes seven categories, a user-friendly cart system, and PayPal integration for secure payments." link="https://groceryshop-three.vercel.app/" />
 </div>
-<img src={FoodApp} alt="FoodApp"/>
+<img src={FoodApp} alt="GroceryApp"/>
 </div>
 </div>
 <div className={styles.container}>
