@@ -20,5 +20,7 @@ line-height: 2.5rem;
 }
 @media (max-width:1024px){
    .content{ padding: 0 auto;
-line-height: 1.35rem;}
+line-height: 1.35rem;
+font-size: 12px;
+}
 }

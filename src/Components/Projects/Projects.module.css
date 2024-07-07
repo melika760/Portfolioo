@@ -2,8 +2,10 @@
     display: none;
 }
 .wraper{
+margin-bottom: 150px;
+margin-left: 150px;
+margin-right: 150px;
 
-margin: 150px;
 
 }
 .heart{
@@ -88,12 +90,29 @@ margin: 150px;
     }
     .container{
         display: block;
-        margin: 0px auto;
+        margin: auto;
+        margin-left: 26px;
+        margin-right: 12px;
     
     }
-    .ToDo,.Dictionary,.Weather,.FoodApp {
+    .ToDo{
         width: 100%;
         border-radius: 4px;
+      
+    }
+    .Dictionary{
+        width: 100%;
+        border-radius: 4px;
+      
+
+    }.Weather{
+        width: 100%;
+        border-radius: 4px;
+        
+    }.FoodApp {
+        width: 100%;
+        border-radius: 4px;
+    
        
     }
 
